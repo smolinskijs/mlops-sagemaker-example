@@ -1,3 +1,4 @@
+# MLOPS MASTERCLASS EXAMPLE
 ## Layout of the SageMaker Project Template
 
 The template provides a starting point for bringing your SageMaker Pipeline development to production.
