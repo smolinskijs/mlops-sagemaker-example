@@ -286,8 +286,8 @@ def get_pipeline(
     step_args = model.register(
         content_types=["text/csv"],
         response_types=["text/csv"],
-        inference_instances=["ml.t2.medium", "ml.m5.xlarge"],
-        transform_instances=["ml.m4.xlarge"],
+        inference_instances=["ml.t2.medium", "m4.xlarge"],
+        transform_instances=["m4.xlarge"],
         model_package_group_name=model_package_group_name,
         approval_status=model_approval_status,
         model_metrics=model_metrics,
