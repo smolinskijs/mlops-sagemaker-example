@@ -100,7 +100,6 @@ def main():  # pragma: no cover
         print("\n#####Execution completed. Execution step details:")
 
         print(execution.list_steps())
-        # Todo print the status?
     except Exception as e:  # pylint: disable=W0703
         print(f"Exception: {e}")
         traceback.print_exc()
