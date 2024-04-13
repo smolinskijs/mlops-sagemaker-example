@@ -1,6 +1,8 @@
 # MLOPS MASTERCLASS EXAMPLE
 ## Layout of the SageMaker Project Template
 
+# DELETE ME
+
 The template provides a starting point for bringing your SageMaker Pipeline development to production.
 
 ```
