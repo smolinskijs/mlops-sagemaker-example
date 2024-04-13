@@ -201,11 +201,11 @@ def get_pipeline(
     xgb_train.set_hyperparameters(
         objective="reg:linear",
         num_round=50,
-        max_depth=5,
+        max_depth=10,
         eta=0.2,
         gamma=4,
-        min_child_weight=6,
-        subsample=0.7,
+        min_child_weight=3,
+        subsample=0.75,
         silent=0,
     )
     step_args = xgb_train.fit(
